@@ -1,0 +1,23 @@
+/*correspon al heading, es a dir el titol de "LListat de novetats"*/
+h1{
+    color:blueviolet;
+    text-align:center;
+    font-weight: bold;
+}
+/*class que hem ficat a la segona taula de manera que el css no s'apliqui a la primera creada, amb border 1px definim l'amplada de la linea que separa las cel·les juntament amb border*/
+.tabla{
+    border-collapse: collapse;  
+    border: 1px solid;
+    /*amb margin, centrem la taula al mig de la pàgina*/
+    margin:auto;
+}
+/*class que hem ficat per a el titol de la taula*/
+.cap{
+    color:blue;
+}
+/*class que hem ficat per ha els th, amb bold posem la lletra amb negreta i amb background pintem el fons de la cel·la*/
+.csstr{
+    text-align:center;
+    font-weight: bold;
+    background-color:rgb(190, 189, 189);
+}
